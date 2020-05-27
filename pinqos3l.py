@@ -42,7 +42,7 @@ def calculate_QoS(bw = 10, end='108.177.13.100'):
 
     if len(sys.argv) > 2:
         pings = int(sys.argv[2])
-    else: pings = 100  
+    else: pings = 1000  
 
     ping_c  = "ping -c " + str(pings) + " -s 1400 " + ip + " > pings.txt"
     trans_c = "cat pings.txt | grep packets\ transmitted | awk '{print $1}'"
