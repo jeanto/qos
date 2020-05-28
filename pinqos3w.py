@@ -49,7 +49,7 @@ def calculate_QoS(bw = 10, end='108.177.13.100'):
 
     if len(sys.argv) > 2:
         pings = int(sys.argv[2])
-    else: pings = 100
+    else: pings = 1000
 
     ping  = "ping -n " + str(pings) + " -l 1472 " + ip + " > pings.txt"
     print
