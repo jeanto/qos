@@ -1,6 +1,6 @@
-# PinQoS: Calculadora de Qualidade de Serviço Simples usando Ping
+# PinQoS: Calculadora de Qualidade de Serviço Simples usando ICMP
 
-Calculadora de QoS que usa o protocolo ICMP para calculá-lo usando comandos do SO e Expressão Regular.
+Calculadora de QoS que usa o protocolo ICMP em python.
 
 ### Pré-requisitos
 
