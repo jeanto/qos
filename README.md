@@ -2,21 +2,21 @@
 
 Calculadora de QoS que usa o protocolo ICMP para calculá-lo usando comandos do SO e Expressão Regular.
 
-## Começando
-
-Essas instruções fornecerão uma cópia do projeto em execução na sua máquina local para fins de desenvolvimento e teste. Consulte implantação para obter notas sobre como implantar o projeto em um sistema ativo.
-
 ### Pré-requisitos
 
-O que você precisa para instalar
+O que você precisa instalar
 
 ```
 python3
 ```
 
+### Sistemas operacionais compatíveis
+
+Windows 10 e Linux Ubuntu ou baseado em Debian
+
 ## Executando
 
-Explain how to run the automated tests for this system
+Como rodar a calculadora! 
 
 ### Linux ubuntu
 
@@ -56,5 +56,3 @@ Para este último caso:
 ## Resultado
 
 ![Exemplo de execução no Linux](exemplo.png)
-
-
