@@ -107,7 +107,7 @@ def sinal():
 def main(mos, bw):
     report = calculate_QoS(bw)
     print
-    print(bcolors.OKGREEN + "--- COPIE A LINHA ABAIXO E COLE EM http://www.dontpad.com/qos_unicatolica/ ---" + bcolors.ENDC)
+#    print(bcolors.OKGREEN + "--- COPIE A LINHA ABAIXO E COLE EM http://www.dontpad.com/qos_unicatolica/ ---" + bcolors.ENDC)
     print(str(mos) + ";" + report['delay'] + ";" + report['jitter'] + ";" + report['packet_loss'] + ";" + report['throughput'] + ";" + report['signal_level'])
 
 
@@ -119,6 +119,6 @@ if __name__ == '__main__':
     print("[3] Regular - levemente incômodo]")
     print("[4] Bom - não incômodo]")
     print("[5] Excelente - falhas imperceptíveis]")
-    mos = input("Informe a sua opinião sobre a qualidade [1-5]: ")
+ #   mos = input("Informe a sua opinião sobre a qualidade [1-5]: ")
     bw  = input("Informe a sua largura de banda (Ex. 10): ")
     main(mos, bw)
